@@ -4,7 +4,9 @@
     "description": "A chrome extension that helps users know the exchange prices of different crypto currencies.",
     "main": "main.js",
     "scripts": {
-        "test": "mocha test -u bdd -R spec"
+        "test": "mocha test -u bdd -R spec",
+        "start": "node server.js",
+        "start:dev": "node server.js 4000"
     },
     "repository": {
         "type": "git",
