@@ -57,10 +57,13 @@ npm run lint
 ## How to contribute
 
 <pre>
-Contributions are highly welcome. Follow the steps below to start contributing.
+Contributions are highly welcome. 
 
-
-Create a fork of this project. Make your changes in the develop branch and then raise a pull request. Members of the team will review the changes and take decisions whether or not to merge the proposed changes
+Follow the steps below to start contributing.
 </pre>
+
+* Create a fork of this project. 
+* Make your changes in the develop branch, or a new branch for bug fixes and then raise a pull request.
+* Members of the team will review the changes and take decisions whether or not to merge the proposed changes
 
 
