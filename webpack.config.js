@@ -1,9 +1,17 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+    template: "./public/index.html",
+    filename: "index.html",
+    inject: "body"
+});
+
 module.exports = {
-    entry: "./client/index.js",
+    entry: "./src/index.jsx",
     output: {
-        path: path.resolve("dist"),
-        filename: "index_bundle.js"
+        path: path.resolve("public"),
+        filename: "bundle.js"
     },
     module: {
         rules: [
@@ -23,5 +31,6 @@ module.exports = {
                 use: "babel-loader"
             }
         ]
-    }
+    },
+    plugins: [HtmlWebpackPluginConfig]
 };
