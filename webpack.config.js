@@ -8,7 +8,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-    entry: "./src/index.jsx",
+    entry: "./src/index.js",
     output: {
         path: path.resolve("public"),
         filename: "bundle.js"
