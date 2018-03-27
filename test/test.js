@@ -1,7 +1,8 @@
-var should = require('should');
+var mocha = require("mocha");
+var should = require("should");
 
-describe('My first test', function() {
-    it('is running', function() {
+mocha.describe("My first test", function() {
+    mocha.it("is running", function() {
         should.equal(true, true);
     });
 });
